@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.08a4598a.chunk.css",
+    "main.js": "/static/js/main.a2a7f912.chunk.js",
+    "main.js.map": "/static/js/main.a2a7f912.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.76712772.js",
+    "runtime-main.js.map": "/static/js/runtime-main.76712772.js.map",
+    "static/js/2.6a64f000.chunk.js": "/static/js/2.6a64f000.chunk.js",
+    "static/js/2.6a64f000.chunk.js.map": "/static/js/2.6a64f000.chunk.js.map",
+    "static/js/3.eab82d9a.chunk.js": "/static/js/3.eab82d9a.chunk.js",
+    "static/js/3.eab82d9a.chunk.js.map": "/static/js/3.eab82d9a.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.08a4598a.chunk.css.map": "/static/css/main.08a4598a.chunk.css.map",
+    "static/js/2.6a64f000.chunk.js.LICENSE.txt": "/static/js/2.6a64f000.chunk.js.LICENSE.txt",
+    "static/media/pomodoro.90b969f3.gif": "/static/media/pomodoro.90b969f3.gif",
+    "static/media/trivia.a13b1606.gif": "/static/media/trivia.a13b1606.gif",
+    "static/media/wallet.2ecea8c8.gif": "/static/media/wallet.2ecea8c8.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.76712772.js",
+    "static/js/2.6a64f000.chunk.js",
+    "static/css/main.08a4598a.chunk.css",
+    "static/js/main.a2a7f912.chunk.js"
+  ]
+}
