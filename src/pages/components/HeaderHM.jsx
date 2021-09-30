@@ -6,7 +6,7 @@ export default class HeaderHM extends Component {
   render() {
     return (
       <header className="header-hm">
-        <Link to='/' className="title-link">
+        <Link to='/portfolio' className="title-link">
           <h2>Victor's Portfolio</h2>
         </Link>
         <nav className="nav-hm">
