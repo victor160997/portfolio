@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Allison&family=Noto+Sans+TC:wght@300&display=swap');
+
+@media screen and ( max-width : 400px ) and ( max-height : 700px ) {
+  .title-image-body {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 15px
+  }
+  
+  .title-image-body img {
+    border-radius: 360px;
+    height: 60vw;
+    transition: border-radius 0.5s;
+    cursor:pointer;
+    animation: 1s;
+  }
+  
+  .animationImg {
+    animation: fadeImg 1.5s linear;
+  }
+  
+  @keyframes fadeImg {
+    0% {
+      opacity: 0;
+      transform: translate3d(360px, -80%, 3em);
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .animationDown {
+    animation: fadeDown 1.5s linear;
+  }
+  
+  @keyframes fadeDown {
+    0% {
+      opacity: 0;
+      transform: translate3d(-360px, 80%, -3em);
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .title-image-body h1 {
+    margin-bottom: 20px;
+    font-family: 'Noto Sans TC', sans-serif;
+    color: #D77A5B;
+  }
+  
+  .title-image-body h1:hover {
+    filter: drop-shadow(0 0 15px #D77A5B);
+  }
+}
+
+@media screen and ( min-width : 400px ) and ( min-height : 700px ) {
+
+  .title-image-body {
+    background-color: transparent;
+    width: 50vw;
+    height: 91.8vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .title-image-body img {
+    width: 30vw;
+    height: 30vw;
+    border-radius: 360px;
+    transition: border-radius 0.5s;
+    cursor:pointer;
+    animation: 1s;
+  }
+  
+  .title-image-body img:hover {
+    width: 30vw;
+    height: 30vw;
+    border-radius: 15px;
+    
+  }
+  
+  .animationImg {
+    animation: fadeImg 1.5s linear;
+  }
+  
+  @keyframes fadeImg {
+    0% {
+      opacity: 0;
+      transform: translate3d(12px, -80%, 3em);
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .animationDown {
+    animation: fadeDown 1.5s linear;
+  }
+  
+  @keyframes fadeDown {
+    0% {
+      opacity: 0;
+      transform: translate3d(12px, 80%, 3em);
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .title-image-body h1 {
+    margin: 10px;
+    margin-left: 50px;
+    font-family: 'Noto Sans TC', sans-serif;
+    color: #D77A5B;
+  }
+  
+  .title-image-body h1:hover {
+    filter: drop-shadow(0 0 15px #D77A5B);
+  }
+}
+
+

@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allison&family=Noto+Sans+TC:wght@300&display=swap');
+
+/* font-family: 'Allison', cursive;
+font-family: 'Noto Sans TC', sans-serif; */
+
+.App {
+  background-color: #050517;
+  width: 100vw;
+  height: 100vh;
+}
