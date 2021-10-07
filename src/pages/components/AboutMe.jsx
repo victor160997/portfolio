@@ -33,7 +33,7 @@ export default class AboutMe extends Component {
           </div>
         </div>
 
-        <Link to='myprojects'>
+        <Link to='/portfolio/myprojects'>
           <button type="button" class="cta">
             <span>MY PROJECTS</span>
             <svg width="13px" height="10px" viewBox="0 0 13 10">
