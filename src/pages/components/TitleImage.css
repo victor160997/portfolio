@@ -11,6 +11,8 @@
   }
   
   .title-image-body img {
+    box-shadow: 0 5px 15px rgb(70, 26, 0);
+    background-color: red;
     border-radius: 360px;
     height: 60vw;
     transition: border-radius 0.5s;
@@ -70,6 +72,7 @@
   }
   
   .title-image-body img {
+    box-shadow: 0 5px 15px rgb(70, 26, 0);
     width: 30vw;
     height: 30vw;
     border-radius: 360px;
