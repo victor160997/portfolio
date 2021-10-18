@@ -3,10 +3,12 @@
 .header-hm {
   background-color: #D77A5B;
   font-family: 'Noto Sans TC', sans-serif;
-  color: #ffffff;
+  color: #00aeff;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
 }
 
 .header-hm h2 {

@@ -79,9 +79,17 @@
   .box1 span {
     transform: scale(1.5);
   }
+
+  a {
+    text-decoration: none;
+  }
 }
 
 @media screen and ( min-width : 801px ) {
+
+  a {
+    text-decoration: none;
+  }
   
   .container {
     align-items: center;
@@ -117,7 +125,9 @@
   }
   
   .box img:hover {
-    transform: scale(1.5);
+    transform: scale(1.2);
+    border: solid white 1px;
+    border-radius: 5px 5px 0 0;
   }
   
   .box span {
@@ -159,7 +169,9 @@
   }
   
   .box1 img:hover {
-    transform: scale(1.5);
+    transform: scale(1.2);
+    border: solid white 1px;
+    border-radius: 5px 5px 0 0;
   }
   
   .box1 span {

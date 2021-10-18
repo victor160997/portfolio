@@ -11,26 +11,35 @@ export default class MyProjects extends Component {
     return (
       <div>
         <HeaderHM />
-        <div className="container animationPr">
-          <div className="box">
-            <img src={ wallet } alt="Projeto trybe wallet" />
-            <span>Trybe Wallet</span>
-          </div>
+        <div className="container animationPr" target="_blank" rel="noreferrer">
 
-          <div className="box1">
-              <img src={ recipesApp } alt="Projeto Pomodoro" />
-            <span>Recipes App</span>
-          </div>
+          <a href="https://victor160997.github.io/Projeto-App-de-receitas/" target="_blank" rel="noreferrer">
+            <div className="box">
+                <img src={ recipesApp } alt="Projeto Pomodoro" />
+              <span>Recipes App</span>
+            </div>
+          </a>
 
-          <div className="box">
-              <img src={ pomodoro} alt="Projeto Pomodoro" />
-            <span>Pomodor</span>
-          </div>
+          <a href="https://github.com/victor160997/project-game-trivia" target="_blank" rel="noreferrer">
+            <div className="box1">
+                <img src={ trivia} alt="Projeto Pomodoro" />
+              <span>Trivia's Game</span>
+            </div>
+          </a>
 
-          <div className="box1">
-              <img src={ trivia} alt="Projeto Pomodoro" />
-            <span>Trvia's Game</span>
-          </div>
+          <a href="https://victor160997.github.io/my-pomodoro.app/" target="_blank" rel="noreferrer">
+            <div className="box">
+                <img src={ pomodoro} alt="Projeto Pomodoro" />
+              <span>Pomodor</span>
+            </div>
+          </a>
+
+          <a href="https://github.com/victor160997/project-wallet/" target="_blank" rel="noreferrer">
+            <div className="box1">
+              <img src={ wallet } alt="Projeto trybe wallet" />
+              <span>Trybe Wallet</span>
+            </div>
+          </a>
 
         </div>
       </div>
