@@ -1,0 +1,253 @@
+@media screen and ( min-width : 250px ) and ( max-width : 800px ) {
+  .body-contact {
+    /* background-color: aliceblue; */
+    padding: 0 6vw 3vw 6vw;
+  }
+
+  .body-contact h1 {
+    font-size: 50px;
+    font-family: 'Allison', cursive;
+    color: #D77A5B;
+  }
+
+  .body-contact form {
+  /* s */
+    display: flex;
+    flex-direction: column;
+    margin: 1vw;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .name-email {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+  }
+
+  .name-email input {
+    background-color: transparent;
+    border: solid white 1px;
+    border-right: 0;
+    border-left: 0;
+    border-top: 0;
+    width: 100%;
+    margin-bottom: 15px;
+    height: 80px;
+    font-size: 25px;
+    padding-left: 10px;
+    font-family: 'Noto Sans TC', sans-serif;
+    color: #ffffff;
+    filter: drop-shadow(0 0 15px #ffffff);
+  }
+
+    .name-email input:disabled {
+    filter: drop-shadow(0 0 15px #ff0000);
+  }
+
+  .text-submit {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    margin-top: 3vh;
+  }
+
+  .text-submit textarea {
+    background-color: transparent;
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 30vh;
+    min-height: 30vh;
+    padding: 1vw;
+    font-size: 20px;
+    font-family: 'Noto Sans TC', sans-serif;
+    color: #ffffff;
+    filter: drop-shadow(0 0 15px #ffffff);
+    border: solid white 1px;
+    margin-bottom: 3vh;
+  }
+
+  .cta {
+    position: relative;
+    color: #ffffff;
+    margin: 20px;
+    padding: 19px 22px;
+    transition: all 0.2s ease;
+    background-color: transparent;
+    border: transparent;
+    cursor: pointer;
+  }
+  .text-submit button:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    border-radius: 28px;
+    background: #e74b18;
+    width: 100%;
+    height: 56px;
+    transition: all 0.3s ease;
+  }
+  .text-submit button span {
+    position: relative;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 900;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    vertical-align: middle;
+  }
+  .text-submit button svg {
+    position: relative;
+    top: 0;
+    margin-left: 10px;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: rgb(255, 255, 255);
+    stroke-width: 2;
+    transform: translateX(-5px);
+    transition: all 0.3s ease;
+  }
+  .text-submit button:hover:before {
+    width: 100%;
+    background: #D77A5B;
+  }
+  .text-submit button:hover svg {
+    transform: translateX(0);
+  }
+  .text-submit button:active {
+    transform: scale(0.96);
+  }
+
+  .text-submit button:disabled {
+    opacity: 0.3;
+  }
+}
+
+@media screen and ( min-width : 801px ) {
+
+  .body-contact {
+    /* background-color: aliceblue; */
+    padding: 0 6vw 3vw 6vw;
+  }
+  
+  .body-contact h1 {
+    font-size: 80px;
+    font-family: 'Allison', cursive;
+    color: #D77A5B;
+  }
+  
+  .body-contact form {
+   /* s */
+    display: flex;
+    margin: 1vw;
+    justify-content: space-between;
+  }
+  
+  .name-email {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+  }
+  
+  .name-email input {
+    background-color: transparent;
+    border: solid white 1px;
+    border-right: 0;
+    border-left: 0;
+    border-top: 0;
+    width: 100%;
+    margin-bottom: 15px;
+    height: 80px;
+    font-size: 25px;
+    padding-left: 10px;
+    font-family: 'Noto Sans TC', sans-serif;
+    color: #ffffff;
+    filter: drop-shadow(0 0 15px #ffffff);
+  }
+  
+    .name-email input:disabled {
+    filter: drop-shadow(0 0 15px #ff0000);
+  }
+  
+  .text-submit {
+    display: flex;
+    flex-direction: column;
+    width: 45vw;
+  }
+  
+  .text-submit textarea {
+    background-color: transparent;
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 30vh;
+    min-height: 30vh;
+    padding: 1vw;
+    font-size: 20px;
+    font-family: 'Noto Sans TC', sans-serif;
+    color: #ffffff;
+    filter: drop-shadow(0 0 15px #ffffff);
+    border: solid white 1px;
+    margin-bottom: 3vh;
+  }
+  
+  .cta {
+    position: relative;
+    color: #ffffff;
+    margin: 20px;
+    padding: 19px 22px;
+    transition: all 0.2s ease;
+    background-color: transparent;
+    border: transparent;
+    cursor: pointer;
+  }
+  .text-submit button:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    border-radius: 28px;
+    background: #e74b18;
+    width: 100%;
+    height: 56px;
+    transition: all 0.3s ease;
+  }
+  .text-submit button span {
+    position: relative;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 900;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    vertical-align: middle;
+  }
+  .text-submit button svg {
+    position: relative;
+    top: 0;
+    margin-left: 10px;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: rgb(255, 255, 255);
+    stroke-width: 2;
+    transform: translateX(-5px);
+    transition: all 0.3s ease;
+  }
+  .text-submit button:hover:before {
+    width: 100%;
+    background: #D77A5B;
+  }
+  .text-submit button:hover svg {
+    transform: translateX(0);
+  }
+  .text-submit button:active {
+    transform: scale(0.96);
+  }
+
+  .text-submit button:disabled {
+    opacity: 0.3;
+  }
+}

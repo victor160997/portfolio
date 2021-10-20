@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import AboutMe from './components/AboutMe'
+import ContactForm from './components/ContactForm';
 import HeaderHM from './components/HeaderHM'
 import TitleImage from './components/TitleImage'
 import './HomePage.css';
@@ -13,6 +14,7 @@ export default class HomePage extends Component {
           <TitleImage />
           <AboutMe />
         </section>
+        <ContactForm />
       </div>
     )
   }
