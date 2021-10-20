@@ -41,7 +41,7 @@ export default class ContactForm extends Component {
             <input type="hidden" name="accessKey" value="2fbb72c6-5663-424f-8e4f-8d724819e45a" />
             <input type="hidden" name="redirectTo" value='https://victor160997.github.io/portfolio/' />
             <label htmlFor="input-name">
-              <input type="text" name="name" placeholder="Nome" onChange={ (e) => this.handleChane(e) } />
+              <input type="text" name="name" placeholder="Name" onChange={ (e) => this.handleChane(e) } />
             </label>
             <label htmlFor="input-email">
               <input type="text" name="email" placeholder="E-mail" onChange={ (e) => this.handleChane(e) } />
@@ -50,7 +50,7 @@ export default class ContactForm extends Component {
 
           <div className="text-submit">
             <label htmlFor="input-text">
-              <textarea name="message" placeholder="Mensagem" onChange={ (e) => this.handleChane(e) } />
+              <textarea name="message" placeholder="Message" onChange={ (e) => this.handleChane(e) } />
             </label>
             <button type="submit" class="cta" disabled={ this.handleDesabled() }>
               <span>Submit</span>
