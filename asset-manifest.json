@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.9ef5bc37.chunk.css",
-    "main.js": "/portfolio/static/js/main.7d44af26.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.7d44af26.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.91d91118.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.91d91118.js.map",
-    "static/js/2.6a64f000.chunk.js": "/portfolio/static/js/2.6a64f000.chunk.js",
-    "static/js/2.6a64f000.chunk.js.map": "/portfolio/static/js/2.6a64f000.chunk.js.map",
-    "static/js/3.eab82d9a.chunk.js": "/portfolio/static/js/3.eab82d9a.chunk.js",
-    "static/js/3.eab82d9a.chunk.js.map": "/portfolio/static/js/3.eab82d9a.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.49897c67.chunk.css",
+    "main.js": "/portfolio/static/js/main.0da26b37.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.0da26b37.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.15894df4.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.15894df4.js.map",
+    "static/js/2.58e41230.chunk.js": "/portfolio/static/js/2.58e41230.chunk.js",
+    "static/js/2.58e41230.chunk.js.map": "/portfolio/static/js/2.58e41230.chunk.js.map",
+    "static/js/3.7a3dfe62.chunk.js": "/portfolio/static/js/3.7a3dfe62.chunk.js",
+    "static/js/3.7a3dfe62.chunk.js.map": "/portfolio/static/js/3.7a3dfe62.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.9ef5bc37.chunk.css.map": "/portfolio/static/css/main.9ef5bc37.chunk.css.map",
-    "static/js/2.6a64f000.chunk.js.LICENSE.txt": "/portfolio/static/js/2.6a64f000.chunk.js.LICENSE.txt",
+    "static/css/main.49897c67.chunk.css.map": "/portfolio/static/css/main.49897c67.chunk.css.map",
+    "static/js/2.58e41230.chunk.js.LICENSE.txt": "/portfolio/static/js/2.58e41230.chunk.js.LICENSE.txt",
     "static/media/appRecipes.eb439715.gif": "/portfolio/static/media/appRecipes.eb439715.gif",
     "static/media/pomodoro.90b969f3.gif": "/portfolio/static/media/pomodoro.90b969f3.gif",
     "static/media/trivia.a13b1606.gif": "/portfolio/static/media/trivia.a13b1606.gif",
     "static/media/wallet.2ecea8c8.gif": "/portfolio/static/media/wallet.2ecea8c8.gif"
   },
   "entrypoints": [
-    "static/js/runtime-main.91d91118.js",
-    "static/js/2.6a64f000.chunk.js",
-    "static/css/main.9ef5bc37.chunk.css",
-    "static/js/main.7d44af26.chunk.js"
+    "static/js/runtime-main.15894df4.js",
+    "static/js/2.58e41230.chunk.js",
+    "static/css/main.49897c67.chunk.css",
+    "static/js/main.0da26b37.chunk.js"
   ]
 }
