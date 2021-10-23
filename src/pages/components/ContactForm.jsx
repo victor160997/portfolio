@@ -33,7 +33,7 @@ export default class ContactForm extends Component {
 
   render() {
     return (
-      <div className="body-contact animationImg">
+      <div className="body-contact animationImg" id="contact">
         <h1>Send me a message!</h1>
         <form action="https://api.staticforms.xyz/submit" method="post">
 
