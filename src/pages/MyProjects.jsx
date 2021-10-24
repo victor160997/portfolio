@@ -5,6 +5,7 @@ import trivia from './trivia.gif';
 import recipesApp from './appRecipes.gif';
 import './MyProjects.css';
 import HeaderHM from './components/HeaderHM';
+import starWars from './starWars.gif';
 
 export default class MyProjects extends Component {
   render() {
@@ -27,15 +28,22 @@ export default class MyProjects extends Component {
             </div>
           </a>
 
-          <a href="https://victor160997.github.io/my-pomodoro.app/" target="_blank" rel="noreferrer">
+          <a href="https://github.com/victor160997/project-starwars-planets-search" target="_blank" rel="noreferrer">
             <div className="box">
+              <img src={ starWars } alt="Projeto trybe wallet" />
+              <span>Star Wars Planets</span>
+            </div>
+          </a>
+
+          <a href="https://victor160997.github.io/my-pomodoro.app/" target="_blank" rel="noreferrer">
+            <div className="box1">
                 <img src={ pomodoro} alt="Projeto Pomodoro" />
               <span>Pomodor</span>
             </div>
           </a>
 
           <a href="https://github.com/victor160997/project-wallet/" target="_blank" rel="noreferrer">
-            <div className="box1">
+            <div className="box2">
               <img src={ wallet } alt="Projeto trybe wallet" />
               <span>Trybe Wallet</span>
             </div>
