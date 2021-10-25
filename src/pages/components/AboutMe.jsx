@@ -33,15 +33,17 @@ export default class AboutMe extends Component {
           </div>
         </div>
 
-        <Link to='/portfolio/myprojects'>
-          <button type="button" class="cta">
-            <span>MY PROJECTS</span>
-            <svg width="13px" height="10px" viewBox="0 0 13 10">
-              <path d="M1,5 L11,5"></path>
-              <polyline points="8 1 12 5 8 9"></polyline>
-            </svg>
-          </button>
-        </Link>
+        <div className="teste">
+          <Link to='/portfolio/myprojects'>
+            <button type="button" class="cto">
+              <span>MY PROJECTS</span>
+              <svg width="13px" height="10px" viewBox="0 0 13 10">
+                <path d="M1,5 L11,5"></path>
+                <polyline points="8 1 12 5 8 9"></polyline>
+              </svg>
+            </button>
+          </Link>
+        </div>
 
       </div>
     )

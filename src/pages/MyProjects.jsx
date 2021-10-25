@@ -15,14 +15,14 @@ export default class MyProjects extends Component {
         <div className="container animationPr" target="_blank" rel="noreferrer">
 
           <a href="https://victor160997.github.io/Projeto-App-de-receitas/" target="_blank" rel="noreferrer">
-            <div className="box">
+            <div className="box topo" id="rec">
                 <img src={ recipesApp } alt="Projeto Pomodoro" />
               <span>Recipes App</span>
             </div>
           </a>
 
           <a href="https://github.com/victor160997/project-game-trivia" target="_blank" rel="noreferrer">
-            <div className="box1">
+            <div className="box1 topo1">
                 <img src={ trivia} alt="Projeto Pomodoro" />
               <span>Trivia's Game</span>
             </div>

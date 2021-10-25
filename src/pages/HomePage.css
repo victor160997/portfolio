@@ -1,10 +1,13 @@
-.body-home-page {
-  display: flex;
-}
-
-@media screen and ( max-width : 500px ) and ( max-height :850px ) {
+@media screen and ( max-width : 800px ){
   .body-home-page {
     display: flex;
     flex-direction: column;
+  }
+}
+
+@media screen and ( min-width : 801px ){
+  .body-home-page {
+    display: flex;
+    height: 100vh;
   }
 }

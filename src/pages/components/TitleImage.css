@@ -1,23 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Allison&family=Noto+Sans+TC:wght@300&display=swap');
 
-@media screen and ( max-width : 500px ) and ( max-height : 850px ) {
+@media screen and ( max-width : 800px ) {
   .title-image-body {
     background-color: transparent;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 10px 15px
+    margin: 9vh 10px 15px 10px;
   }
   
   .title-image-body img {
-    box-shadow: 0 5px 15px rgb(70, 26, 0);
+    box-shadow: 0 5px 15px rgb(0, 0, 0);
     background-color: red;
     border-radius: 360px;
-    height: 60vw;
+    height: 50vw;
     transition: border-radius 0.5s;
     cursor:pointer;
     animation: 1s;
+    opacity: 2;
   }
   
   .animationImg {
@@ -57,17 +58,84 @@
   .title-image-body h1:hover {
     filter: drop-shadow(0 0 15px #D77A5B);
   }
+
+  .cta {
+    display: none;
+    position: relative;
+    color: #ffffff;
+    margin: 20px;
+    padding: 19px 22px;
+    transition: all 0.2s ease;
+    background-color: transparent;
+    border: transparent;
+    cursor: pointer;
+  }
+  .cta:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    border-radius: 28px;
+    background: #e74b18;
+    width: 56px;
+    height: 56px;
+    transition: all 0.3s ease;
+  }
+  .cta span {
+    position: relative;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 900;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    vertical-align: middle;
+  }
+  .cta svg {
+    position: relative;
+    top: 0;
+    margin-left: 10px;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: rgb(255, 255, 255);
+    stroke-width: 2;
+    transform: translateX(-5px);
+    transition: all 0.3s ease;
+  }
+  .cta:hover:before {
+    width: 100%;
+    background: #D77A5B;
+  }
+  .cta:hover svg {
+    transform: translateX(0);
+  }
+  .cta:active {
+    transform: scale(0.96);
+  }
+
+  .back-image {
+    display: flex;
+    justify-content: center;
+    background-image: url('city.png');
+    background-size: 100vh;
+    width: 100vw;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    box-shadow: 0 5px 15px rgb(0, 0, 0);
+    opacity: 1;
+  }
 }
 
-@media screen and ( min-width : 500px ) and ( min-height : 600px ) {
+@media screen and ( min-width : 801px ) {
 
   .title-image-body {
-    background-color: transparent;
+    margin-top: 10vh;
     width: 50vw;
-    height: 91.8vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
   }
   
@@ -79,6 +147,7 @@
     transition: border-radius 0.5s;
     cursor:pointer;
     animation: 1s;
+    margin-bottom: 8vh;
   }
   
   .title-image-body img:hover {
@@ -117,7 +186,7 @@
   }
   
   .title-image-body h1 {
-    margin: 10px;
+    margin: 0 0 5vh 0;
     margin-left: 50px;
     font-family: 'Noto Sans TC', sans-serif;
     color: #D77A5B;
@@ -125,6 +194,60 @@
   
   .title-image-body h1:hover {
     filter: drop-shadow(0 0 15px #D77A5B);
+  }
+
+  .cta {
+    position: relative;
+    color: #ffffff;
+    margin: 20px;
+    padding: 19px 22px;
+    transition: all 0.2s ease;
+    background-color: transparent;
+    border: transparent;
+    cursor: pointer;
+  }
+  .cta:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    border-radius: 28px;
+    background: #e74b18;
+    width: 56px;
+    height: 56px;
+    transition: all 0.3s ease;
+  }
+  .cta span {
+    position: relative;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 900;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    vertical-align: middle;
+  }
+  .cta svg {
+    position: relative;
+    top: 0;
+    margin-left: 10px;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: rgb(255, 255, 255);
+    stroke-width: 2;
+    transform: translateX(-5px);
+    transition: all 0.3s ease;
+  }
+  .cta:hover:before {
+    width: 100%;
+    background: #D77A5B;
+  }
+  .cta:hover svg {
+    transform: translateX(0);
+  }
+  .cta:active {
+    transform: scale(0.96);
   }
 }
 
