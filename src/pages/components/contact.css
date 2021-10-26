@@ -67,7 +67,7 @@
     margin-bottom: 3vh;
   }
 
-  .cto {
+  .submitForm {
     position: relative;
     color: #ffffff;
     margin: 20px;
@@ -77,6 +77,11 @@
     border: transparent;
     cursor: pointer;
   }
+
+  input:focus, textarea:focus {
+    background-color: rgba(255, 102, 0, 0.24);
+  }
+
   .text-submit button:before {
     content: "";
     position: absolute;
@@ -193,7 +198,7 @@
     margin-bottom: 3vh;
   }
   
-  .cto {
+  .submitForm {
     position: relative;
     color: #ffffff;
     margin: 20px;
@@ -203,6 +208,11 @@
     border: transparent;
     cursor: pointer;
   }
+
+  input:focus, textarea:focus {
+    background-color: rgba(255, 102, 0, 0.24);
+  }
+
   .text-submit button:before {
     content: "";
     position: absolute;
