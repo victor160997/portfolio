@@ -52,7 +52,7 @@ export default class ContactForm extends Component {
             <label htmlFor="input-text">
               <textarea name="message" placeholder="Message" onChange={ (e) => this.handleChane(e) } />
             </label>
-            <button type="submit" class="cta" disabled={ this.handleDesabled() }>
+            <button type="submit" class="cto" disabled={ this.handleDesabled() }>
               <span>Submit</span>
               <svg width="13px" height="10px" viewBox="0 0 13 10">
                 <path d="M1,5 L11,5"></path>
