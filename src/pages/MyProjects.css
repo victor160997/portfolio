@@ -7,6 +7,8 @@
     flex-wrap: wrap;
     justify-content: center;
     width: 100vw;
+    height: 92vh;
+    overflow: auto;
     box-sizing: border-box;
   }
   
@@ -41,10 +43,6 @@
     transition: transform 0.25s;
   }
 
-  .topo {
-    margin-top: 10vh;
-  }
-  
   .box1 {
     background-color: rgba(255, 123, 0, 0.8);
     border: solid white 1px;
@@ -125,6 +123,8 @@
     flex-wrap: wrap;
     justify-content: center;
     width: 100vw;
+    height: 92vh;
+    overflow: auto;
     box-sizing: border-box;
   }
   
@@ -214,14 +214,6 @@
   
   .box1 span {
     transform: scale(1.5);
-  }
-
-  .topo {
-    margin-top: 13vh;
-  }
-
-  .topo1 {
-    margin-top: 13vh;
   }
 
   .box2 {

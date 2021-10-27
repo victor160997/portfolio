@@ -10,11 +10,13 @@ export default class HomePage extends Component {
     return (
       <div>
         <HeaderHM />
-        <section className="body-home-page">
-          <TitleImage />
-          <AboutMe />
-        </section>
-        <ContactForm />
+        <div className="main-body">
+          <section className="body-home-page">
+            <TitleImage />
+            <AboutMe />
+          </section>
+          <ContactForm />
+        </div>
       </div>
     )
   }

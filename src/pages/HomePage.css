@@ -3,11 +3,21 @@
     display: flex;
     flex-direction: column;
   }
+  .main-body {
+    height: 92vh;
+    width: 100vw;
+    overflow: auto;
+  }
 }
 
 @media screen and ( min-width : 801px ){
   .body-home-page {
     display: flex;
     height: 100vh;
+  }
+  .main-body {
+    height: 92vh;
+    width: 100vw;
+    overflow: auto;
   }
 }

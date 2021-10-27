@@ -134,8 +134,8 @@
 @media screen and ( min-width : 801px ) {
 
   .body-contact {
-    /* background-color: aliceblue; */
     padding: 0 6vw 3vw 6vw;
+    margin-top: 7vh;
   }
   
   .body-contact h1 {

@@ -4,7 +4,7 @@
 @media screen and ( min-width : 801px ) {
 
   .about-body {
-    margin-top: 10vh;
+    margin-top: 0;
     padding-right: 3vw;
     width: 50vw;
     height: 100%;
@@ -380,7 +380,7 @@
   #js {
     background-color: #F0D994;
     color: #050517;
-    border-radius: 10px;
+    
     padding: 0px 0px 3px 8px;
     margin: 3px;
     width: 90%;
@@ -390,7 +390,7 @@
   #html {
     background-color: #B47818;
     color: #050517;
-    border-radius: 10px;
+    
     padding: 0px 0px 3px 8px;
     margin: 3px;
     width: 75%;
@@ -400,7 +400,7 @@
   #react {
     background-color: #303336;
     color: #ffffff;
-    border-radius: 10px;
+    
     padding: 0px 0px 3px 8px;
     margin: 3px;
     box-shadow: 5px 1px 5px white;
@@ -410,7 +410,7 @@
   #redux {
     background-color: #ffffff;
     color: #050517;
-    border-radius: 10px;
+    
     padding: 0px 0px 3px 8px;
     margin: 3px;
     box-shadow: 5px 1px 5px white;
@@ -420,7 +420,7 @@
   #css {
     background-color: #7e6b00;
     color: #cacad6;
-    border-radius: 10px;
+    
     padding: 0px 0px 3px 8px;
     margin: 3px;
     box-shadow: 5px 1px 5px white;
@@ -430,7 +430,7 @@
   #hooks {
     background-color: #6fa0a7;
     color: #dddddd;
-    border-radius: 10px;
+    
     padding: 0px 0px 3px 8px;
     margin: 3px;
     box-shadow: 5px 1px 5px white;
@@ -440,7 +440,7 @@
   #bootstrap {
     background-color: #4923a3;
     color: #dddddd;
-    border-radius: 10px;
+    
     padding: 0px 0px 3px 8px;
     margin: 3px;
     box-shadow: 5px 1px 5px white;
@@ -450,7 +450,7 @@
   #git {
     background-color: #79225c;
     color: #dddddd;
-    border-radius: 10px;
+    
     padding: 0px 0px 3px 8px;
     margin: 3px;
     box-shadow: 5px 1px 5px white;
@@ -460,7 +460,7 @@
   #scrun {
     background-color: #1a2a44;
     color: #dddddd;
-    border-radius: 10px;
+    
     padding: 0px 0px 3px 8px;
     margin: 3px;
     box-shadow: 5px 1px 5px white;
@@ -470,7 +470,7 @@
   #kanban{
     background-color: #2d350d;
     color: #dddddd;
-    border-radius: 10px;
+    
     padding: 0px 0px 3px 8px;
     margin: 3px;
     box-shadow: 5px 1px 5px white;

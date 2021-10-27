@@ -5,9 +5,9 @@
     background-color: transparent;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    margin: 9vh 10px 15px 10px;
+    margin: 0 10px 15px 10px;
   }
   
   .title-image-body img {
@@ -50,7 +50,8 @@
   }
   
   .title-image-body h1 {
-    margin-bottom: 20px;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
     font-family: 'Noto Sans TC', sans-serif;
     color: #D77A5B;
   }
@@ -130,7 +131,7 @@
 @media screen and ( min-width : 801px ) {
 
   .title-image-body {
-    margin-top: 10vh;
+    margin-top: 0;
     width: 50vw;
     height: 100%;
     display: flex;
@@ -147,7 +148,8 @@
     transition: border-radius 0.5s;
     cursor:pointer;
     animation: 1s;
-    margin-bottom: 8vh;
+    margin-bottom: 5vh;
+    margin-top: 5vh;
   }
   
   .title-image-body img:hover {
