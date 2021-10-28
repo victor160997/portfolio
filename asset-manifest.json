@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/porfolio/portfolio/static/css/main.b4d786d5.chunk.css",
-    "main.js": "/porfolio/portfolio/static/js/main.1c65fca3.chunk.js",
-    "main.js.map": "/porfolio/portfolio/static/js/main.1c65fca3.chunk.js.map",
-    "runtime-main.js": "/porfolio/portfolio/static/js/runtime-main.87e2f497.js",
-    "runtime-main.js.map": "/porfolio/portfolio/static/js/runtime-main.87e2f497.js.map",
-    "static/js/2.40b88e06.chunk.js": "/porfolio/portfolio/static/js/2.40b88e06.chunk.js",
-    "static/js/2.40b88e06.chunk.js.map": "/porfolio/portfolio/static/js/2.40b88e06.chunk.js.map",
-    "static/js/3.f672819a.chunk.js": "/porfolio/portfolio/static/js/3.f672819a.chunk.js",
-    "static/js/3.f672819a.chunk.js.map": "/porfolio/portfolio/static/js/3.f672819a.chunk.js.map",
-    "index.html": "/porfolio/portfolio/index.html",
-    "static/css/main.b4d786d5.chunk.css.map": "/porfolio/portfolio/static/css/main.b4d786d5.chunk.css.map",
-    "static/js/2.40b88e06.chunk.js.LICENSE.txt": "/porfolio/portfolio/static/js/2.40b88e06.chunk.js.LICENSE.txt",
-    "static/media/LogoPory2.ffdb2bde.png": "/porfolio/portfolio/static/media/LogoPory2.ffdb2bde.png",
-    "static/media/appRecipes.eb439715.gif": "/porfolio/portfolio/static/media/appRecipes.eb439715.gif",
-    "static/media/TitleImage.css": "/porfolio/portfolio/static/media/frontCity2.7cd0b7e6.png",
-    "static/media/pomodoro.90b969f3.gif": "/porfolio/portfolio/static/media/pomodoro.90b969f3.gif",
-    "static/media/starWars.54d4763f.gif": "/porfolio/portfolio/static/media/starWars.54d4763f.gif",
-    "static/media/trivia.a13b1606.gif": "/porfolio/portfolio/static/media/trivia.a13b1606.gif",
-    "static/media/wallet.2ecea8c8.gif": "/porfolio/portfolio/static/media/wallet.2ecea8c8.gif"
+    "main.css": "/porfolio/static/css/main.4a8138db.chunk.css",
+    "main.js": "/porfolio/static/js/main.afcc9479.chunk.js",
+    "main.js.map": "/porfolio/static/js/main.afcc9479.chunk.js.map",
+    "runtime-main.js": "/porfolio/static/js/runtime-main.3656ff2b.js",
+    "runtime-main.js.map": "/porfolio/static/js/runtime-main.3656ff2b.js.map",
+    "static/js/2.40b88e06.chunk.js": "/porfolio/static/js/2.40b88e06.chunk.js",
+    "static/js/2.40b88e06.chunk.js.map": "/porfolio/static/js/2.40b88e06.chunk.js.map",
+    "static/js/3.f672819a.chunk.js": "/porfolio/static/js/3.f672819a.chunk.js",
+    "static/js/3.f672819a.chunk.js.map": "/porfolio/static/js/3.f672819a.chunk.js.map",
+    "index.html": "/porfolio/index.html",
+    "static/css/main.4a8138db.chunk.css.map": "/porfolio/static/css/main.4a8138db.chunk.css.map",
+    "static/js/2.40b88e06.chunk.js.LICENSE.txt": "/porfolio/static/js/2.40b88e06.chunk.js.LICENSE.txt",
+    "static/media/LogoPory2.ffdb2bde.png": "/porfolio/static/media/LogoPory2.ffdb2bde.png",
+    "static/media/appRecipes.eb439715.gif": "/porfolio/static/media/appRecipes.eb439715.gif",
+    "static/media/TitleImage.css": "/porfolio/static/media/frontCity2.7cd0b7e6.png",
+    "static/media/pomodoro.90b969f3.gif": "/porfolio/static/media/pomodoro.90b969f3.gif",
+    "static/media/starWars.54d4763f.gif": "/porfolio/static/media/starWars.54d4763f.gif",
+    "static/media/trivia.a13b1606.gif": "/porfolio/static/media/trivia.a13b1606.gif",
+    "static/media/wallet.2ecea8c8.gif": "/porfolio/static/media/wallet.2ecea8c8.gif"
   },
   "entrypoints": [
-    "static/js/runtime-main.87e2f497.js",
+    "static/js/runtime-main.3656ff2b.js",
     "static/js/2.40b88e06.chunk.js",
-    "static/css/main.b4d786d5.chunk.css",
-    "static/js/main.1c65fca3.chunk.js"
+    "static/css/main.4a8138db.chunk.css",
+    "static/js/main.afcc9479.chunk.js"
   ]
 }
