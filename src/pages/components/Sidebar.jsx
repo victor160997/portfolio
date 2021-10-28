@@ -26,7 +26,7 @@ export default class Sidebar extends Component {
                   My Projects
                 </Link>
               </li>
-              <li className="style-li">
+              <li className="style-li"> {/* //oi */}
                 <a href="https://github.com/victor160997" target="_blank" rel="noreferrer">
                   My GitHub
                   <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#444" color="white" class="bi bi-github" viewBox="0 0 16 16">
