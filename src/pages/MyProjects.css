@@ -7,13 +7,13 @@
     flex-wrap: wrap;
     justify-content: center;
     width: 100vw;
-    height: 92vh;
+    height: 100vh;
     overflow: auto;
     box-sizing: border-box;
   }
   
   .box {
-    background-color: rgba(255, 123, 0, 0.8);
+    background-color: rgb(0, 179, 211, 0.8);
     border: solid white 1px;
     display: flex;
     flex-direction: column;
@@ -44,7 +44,7 @@
   }
 
   .box1 {
-    background-color: rgba(255, 123, 0, 0.8);
+    background-color: rgb(0, 179, 211, 0.8);
     border: solid white 1px;
     display: flex;
     flex-direction: column;
@@ -75,7 +75,7 @@
   }
 
   .box2 {
-    background-color: rgba(255, 123, 0, 0.8);
+    background-color: rgb(0, 179, 211, 0.8);
     border: solid white 1px;
     display: flex;
     flex-direction: column;
@@ -108,6 +108,10 @@
   a {
     text-decoration: none;
   }
+
+  .topo {
+    margin-top: 15vh;
+  }
 }
 
 @media screen and ( min-width : 801px ) {
@@ -123,13 +127,13 @@
     flex-wrap: wrap;
     justify-content: center;
     width: 100vw;
-    height: 92vh;
+    height: 100vh;
     overflow: auto;
     box-sizing: border-box;
   }
   
   .box {
-    background-color: rgba(255, 123, 0, 0.8);
+    background-color: rgb(0, 179, 211, 0.8);
     border: solid white 1px;
     display: flex;
     flex-direction: column;
@@ -173,7 +177,7 @@
   }
   
   .box1 {
-    background-color: rgba(255, 123, 0, 0.8);
+    background-color: rgb(0, 179, 211, 0.8);
     border: solid white 1px;
     display: flex;
     flex-direction: column;
@@ -217,7 +221,7 @@
   }
 
   .box2 {
-    background-color: rgba(255, 123, 0, 0.8);
+    background-color: rgb(0, 179, 211, 0.8);
     border: solid white 1px;
     display: flex;
     flex-direction: column;

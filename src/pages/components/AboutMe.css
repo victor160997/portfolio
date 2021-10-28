@@ -4,10 +4,10 @@
 @media screen and ( min-width : 801px ) {
 
   .about-body {
-    margin-top: 0;
-    padding-right: 3vw;
-    width: 50vw;
-    height: 100%;
+    box-shadow: 0 5px 15px rgb(0, 0, 0);
+    margin: 4vh 0 4vh 0;
+    padding: 2vw;
+    width: 80vw;
     color: aliceblue;
     display: flex;
     flex-direction: column;
@@ -17,19 +17,22 @@
 
   .about-body h2 {
     font-family: 'Allison', cursive;
-    color: #D77A5B;
-    font-size: xxx-large;
+    font-size: 4vw;
     margin-top: 0;
+    color: rgb(0, 179, 211);
+    text-shadow: 2px 0 5px rgba(255, 255, 255, 0.1) , -2px 0 5px rgba(255, 255, 255, 0.1) , 0 2px 5px rgba(255, 255, 255, 0.1) , 0
+      -2px 5px rgba(255, 255, 255, 0.1) , 1px 1px 5px rgba(255, 255, 255, 0.1) , -1px -1px 5px rgba(255, 255, 255, 0.1) , 1px -1px 5px rgba(255, 255, 255, 0.1) , -1px
+      1px 5px rgba(255, 255, 255, 0.1);
   }
 
   .about-me {
-    color: #D77A5B;
+    color: #ffffff;
     font-family: 'Noto Sans TC', sans-serif;
     margin: 0 20px 20px 20px;
+    font-size: 25px;
   }
 
   .my-skills {
-    color: #D77A5B;
     font-family: 'Noto Sans TC', sans-serif;
     margin: 20px;
     width: 70%;
@@ -40,7 +43,7 @@
   }  
 
   #js {
-    background-color: #F0D994;
+    background-color: rgba(255, 255, 255, 0.8);
     color: #050517;
     border-radius: 35px 0 100px 0;
     padding: 0px 0px 3px 8px;
@@ -50,7 +53,7 @@
   }
 
   #html {
-    background-color: #B47818;
+    background-color: rgba(255, 255, 255, 0.8);
     color: #050517;
     border-radius: 35px 0 100px 0;
     padding: 0px 0px 3px 8px;
@@ -60,8 +63,8 @@
   }
 
   #react {
-    background-color: #303336;
-    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #050517;
     border-radius: 35px 0 100px 0;
     padding: 0px 0px 3px 8px;
     margin: 3px;
@@ -70,7 +73,7 @@
   }
 
   #redux {
-    background-color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.8);
     color: #050517;
     border-radius: 35px 0 100px 0;
     padding: 0px 0px 3px 8px;
@@ -80,8 +83,8 @@
   }
 
   #css {
-    background-color: #7e6b00;
-    color: #cacad6;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #050517;
     border-radius: 35px 0 100px 0;
     padding: 0px 0px 3px 8px;
     margin: 3px;
@@ -90,8 +93,8 @@
   }
 
   #hooks {
-    background-color: #6fa0a7;
-    color: #dddddd;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #050517;
     border-radius: 35px 0 100px 0;
     padding: 0px 0px 3px 8px;
     margin: 3px;
@@ -100,8 +103,8 @@
   }
 
   #bootstrap {
-    background-color: #4923a3;
-    color: #dddddd;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #050517;
     border-radius: 35px 0 100px 0;
     padding: 0px 0px 3px 8px;
     margin: 3px;
@@ -110,8 +113,8 @@
   }
 
   #git {
-    background-color: #79225c;
-    color: #dddddd;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #050517;
     border-radius: 35px 0 100px 0;
     padding: 0px 0px 3px 8px;
     margin: 3px;
@@ -120,8 +123,8 @@
   }
 
   #scrun {
-    background-color: #1a2a44;
-    color: #dddddd;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #050517;
     border-radius: 35px 0 100px 0;
     padding: 0px 0px 3px 8px;
     margin: 3px;
@@ -130,8 +133,8 @@
   }
 
   #kanban{
-    background-color: #2d350d;
-    color: #dddddd;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #050517;
     border-radius: 35px 0 100px 0;
     padding: 0px 0px 3px 8px;
     margin: 3px;
@@ -289,7 +292,6 @@
   } */
 
   .cto {
-    display: none;
     position: relative;
     color: #ffffff;
     margin: 20px;
@@ -306,7 +308,7 @@
     left: 0;
     display: block;
     border-radius: 28px;
-    background: #e74b18;
+    background: rgb(0, 179, 211);
     width: 56px;
     height: 56px;
     transition: all 0.3s ease;
@@ -334,7 +336,7 @@
   }
   .cto:hover:before {
     width: 100%;
-    background: #D77A5B;
+    background: rgb(0, 179, 211);
   }
   .cto:hover svg {
     transform: translateX(0);
@@ -354,14 +356,17 @@
   
   .about-body h2 {
     font-family: 'Allison', cursive;
-    color: #D77A5B;
     font-size: xxx-large;
     margin-top: 0;
     margin-bottom: 2vh;
+    color: rgb(0, 179, 211);
+    text-shadow: 2px 0 5px rgba(255, 255, 255, 0.1) , -2px 0 5px rgba(255, 255, 255, 0.1) , 0 2px 5px rgba(255, 255, 255, 0.1) , 0
+      -2px 5px rgba(255, 255, 255, 0.1) , 1px 1px 5px rgba(255, 255, 255, 0.1) , -1px -1px 5px rgba(255, 255, 255, 0.1) , 1px -1px 5px rgba(255, 255, 255, 0.1) , -1px
+      1px 5px rgba(255, 255, 255, 0.1);
   }
   
   .about-me {
-    color: #D77A5B;
+    color: rgb(255, 255, 255);
     font-family: 'Noto Sans TC', sans-serif;
     margin: 0 20px 20px 20px;
   }
@@ -378,39 +383,39 @@
   }  
   
   #js {
-    background-color: #F0D994;
-    color: #050517;
-    
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
     padding: 0px 0px 3px 8px;
     margin: 3px;
     width: 90%;
     box-shadow: 5px 1px 5px white;
+    border-radius: 35px 0 100px 0;
   }
   
   #html {
-    background-color: #B47818;
-    color: #050517;
-    
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
     padding: 0px 0px 3px 8px;
     margin: 3px;
     width: 75%;
     box-shadow: 5px 1px 5px white;
+    border-radius: 35px 0 100px 0;
   }
   
   #react {
-    background-color: #303336;
-    color: #ffffff;
-    
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
     padding: 0px 0px 3px 8px;
     margin: 3px;
     box-shadow: 5px 1px 5px white;
     width: 85%;
+    border-radius: 35px 0 100px 0;
   }
   
   #redux {
-    background-color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.8);
     color: #050517;
-    
+    border-radius: 35px 0 100px 0;
     padding: 0px 0px 3px 8px;
     margin: 3px;
     box-shadow: 5px 1px 5px white;
@@ -418,63 +423,63 @@
   }
   
   #css {
-    background-color: #7e6b00;
-    color: #cacad6;
-    
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
     padding: 0px 0px 3px 8px;
     margin: 3px;
     box-shadow: 5px 1px 5px white;
     width: 58%;
+    border-radius: 35px 0 100px 0;
   }
   
   #hooks {
-    background-color: #6fa0a7;
-    color: #dddddd;
-    
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
     padding: 0px 0px 3px 8px;
     margin: 3px;
     box-shadow: 5px 1px 5px white;
     width: 65%;
+    border-radius: 35px 0 100px 0;
   }
   
   #bootstrap {
-    background-color: #4923a3;
-    color: #dddddd;
-    
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
     padding: 0px 0px 3px 8px;
     margin: 3px;
     box-shadow: 5px 1px 5px white;
     width: 26%;
+    border-radius: 35px 0 100px 0;
   }
   
   #git {
-    background-color: #79225c;
-    color: #dddddd;
-    
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
     padding: 0px 0px 3px 8px;
     margin: 3px;
     box-shadow: 5px 1px 5px white;
     width: 40%;
+    border-radius: 35px 0 100px 0;
   }
   
   #scrun {
-    background-color: #1a2a44;
-    color: #dddddd;
-    
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
     padding: 0px 0px 3px 8px;
     margin: 3px;
     box-shadow: 5px 1px 5px white;
     width: 40%;
+    border-radius: 35px 0 100px 0;
   }
   
   #kanban{
-    background-color: #2d350d;
-    color: #dddddd;
-    
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
     padding: 0px 0px 3px 8px;
     margin: 3px;
     box-shadow: 5px 1px 5px white;
     width: 40%;
+    border-radius: 35px 0 100px 0;
   }
 
   .cto {
@@ -494,7 +499,7 @@
     left: 0;
     display: block;
     border-radius: 28px;
-    background: #e74b18;
+    background: rgb(0, 179, 211);
     width: 100%;
     height: 56px;
     transition: all 0.3s ease;

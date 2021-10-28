@@ -6,14 +6,15 @@ import recipesApp from './appRecipes.gif';
 import './MyProjects.css';
 import HeaderHM from './components/HeaderHM';
 import starWars from './starWars.gif';
+import Sidebar from './components/Sidebar';
 
 export default class MyProjects extends Component {
   render() {
     return (
-      <div>
+      <div className="body-projects">
         <HeaderHM />
+        <Sidebar />
         <div className="container animationPr" target="_blank" rel="noreferrer">
-
           <a href="https://victor160997.github.io/Projeto-App-de-receitas/" target="_blank" rel="noreferrer">
             <div className="box topo" id="rec">
                 <img src={ recipesApp } alt="Projeto Pomodoro" />

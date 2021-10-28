@@ -5,20 +5,28 @@
     background-color: transparent;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     margin: 0 10px 15px 10px;
   }
   
   .title-image-body img {
-    box-shadow: 0 5px 15px rgb(0, 0, 0);
+    /* box-shadow: 0 5px 15px rgb(0, 0, 0);
     background-color: red;
     border-radius: 360px;
     height: 50vw;
     transition: border-radius 0.5s;
     cursor:pointer;
     animation: 1s;
-    opacity: 2;
+    opacity: 2; */
+    box-shadow: 0 5px 15px rgb(0, 0, 0);
+    width: 40vw;
+    border-radius: 360px;
+    transition: border-radius 0.5s;
+    cursor:pointer;
+    animation: 1s;
+    margin-bottom: 1vh;
+    margin-top: 3vh;
   }
   
   .animationImg {
@@ -50,10 +58,19 @@
   }
   
   .title-image-body h1 {
-    margin-top: 3vh;
-    margin-bottom: 3vh;
+    align-content: center;
+    text-align: center;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    margin: 0 1vw 2vh 1vw;
     font-family: 'Noto Sans TC', sans-serif;
-    color: #D77A5B;
+    font-size: 5vw;
+    color: rgb(255, 255, 255);
+      text-shadow: 2px 0 5px rgb(0, 179, 211, 0.5) , -2px 0 5px rgb(0, 179, 211, 0.5) , 0 2px 5px rgb(0, 179, 211, 0.5) , 0
+        -2px 5px rgb(0, 179, 211, 0.5) , 1px 1px 5px rgb(0, 179, 211, 0.5) , -1px -1px 5px rgb(0, 179, 211, 0.5) , 1px -1px 5px rgb(0, 179, 211, 0.5) , -1px
+        1px 5px rgb(0, 179, 211, 0.5);
+    padding: 1vw;
+    /* filter: drop-shadow(0 0 15px rgb(0, 179, 211)); */
   }
   
   .title-image-body h1:hover {
@@ -116,13 +133,27 @@
   }
 
   .back-image {
-    display: flex;
+    /* display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     background-image: url('city.png');
     background-size: 100vh;
     width: 100vw;
     padding-top: 3vh;
     padding-bottom: 3vh;
+    box-shadow: 0 5px 15px rgb(0, 0, 0);
+    opacity: 1; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('city.png');
+    background-size: cover;
+    width: 100vw;
+  /*   padding-top: 0;
+    padding-bottom: 0; */
+    padding: 0 3vw 0 3vw;
     box-shadow: 0 5px 15px rgb(0, 0, 0);
     opacity: 1;
   }
@@ -141,20 +172,20 @@
   }
   
   .title-image-body img {
-    box-shadow: 0 5px 15px rgb(70, 26, 0);
-    width: 30vw;
-    height: 30vw;
+    box-shadow: 0 5px 15px rgb(0, 0, 0);
+    width: 15vw;
+    height: 15vw;
     border-radius: 360px;
     transition: border-radius 0.5s;
     cursor:pointer;
     animation: 1s;
-    margin-bottom: 5vh;
-    margin-top: 5vh;
+    margin-bottom: 3vh;
+    margin-top: 3vh;
   }
   
   .title-image-body img:hover {
-    width: 30vw;
-    height: 30vw;
+    width: 15vw;
+    height: 15vw;
     border-radius: 15px;
     
   }
@@ -188,14 +219,27 @@
   }
   
   .title-image-body h1 {
-    margin: 0 0 5vh 0;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    margin: 0 0 2vh 0;
     margin-left: 50px;
     font-family: 'Noto Sans TC', sans-serif;
-    color: #D77A5B;
+    font-size: 2vw;
+    color: rgb(29, 29, 29);
+      text-shadow: 2px 0 5px rgb(0, 179, 211, 0.5) , -2px 0 5px rgb(0, 179, 211, 0.5) , 0 2px 5px rgb(0, 179, 211, 0.5) , 0
+        -2px 5px rgb(0, 179, 211, 0.5) , 1px 1px 5px rgb(0, 179, 211, 0.5) , -1px -1px 5px rgb(0, 179, 211, 0.5) , 1px -1px 5px rgb(0, 179, 211, 0.5) , -1px
+        1px 5px rgb(0, 179, 211, 0.5);
+    padding: 1vw;
+    filter: drop-shadow(0 0 15px rgb(0, 179, 211));
   }
   
   .title-image-body h1:hover {
-    filter: drop-shadow(0 0 15px #D77A5B);
+    background-color: rgb(0, 0, 0, 0.4);
+    box-shadow: 0 5px 15px rgb(0, 0, 0);
+  }
+
+  .my-name {
+    color: rgb(245, 245, 245);
   }
 
   .cta {
@@ -250,6 +294,20 @@
   }
   .cta:active {
     transform: scale(0.96);
+  }
+
+  .back-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('frontCity2.png');
+    background-size: cover;
+    width: 100vw;
+    padding-top: 0;
+    padding-bottom: 0;
+    box-shadow: 0 5px 15px rgb(0, 0, 0);
+    opacity: 1;
   }
 }
 

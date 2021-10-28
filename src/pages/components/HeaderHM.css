@@ -7,7 +7,7 @@
     background-color: #D77A5B;
     font-family: 'Noto Sans TC', sans-serif;
     color: #ffffff;
-    display: flex;
+    display: none;
     justify-content: space-between;
     align-items: center;
   }
@@ -49,7 +49,7 @@
 
 @media screen and ( min-width : 800px ) {
   .header-hm {
-    width: 100vw;
+   /*  width: 100vw;
     background-color: #D77A5B;
     font-family: 'Noto Sans TC', sans-serif;
     color: #00aeff;
@@ -57,10 +57,91 @@
     justify-content: space-between;
     align-items: center;
     padding-top: 1vh;
-    padding-bottom: 1vh;
+    padding-bottom: 1vh; */
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2vw;
+    width: 100vw;
+  }
+
+ .header-hm img {
+    min-width: 52px;
+    max-width: 52px;
+    height: 45px;
+  }
+
+  .title-link {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-width: 150px;
+    width: 12vw;
+    transition: transform 0.10s;
+    color: rgb(0, 179, 211);
+  }
+
+  .title-link:hover {
+    transform: scale(1.2);
+  }
+
+  .nav-hm {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .nav-hm a {
+    padding: 1.5vh 2vw;;
+    color: rgb(27, 27, 27);
+  }
+
+  .nav-hm a svg {
+    /* margin: 1.5vh 2vw; */
+    /* border: solid rgb(0, 179, 211) 3px; */
+    color: rgb(27, 27, 27);
+    cursor: pointer;
+    transition: transform 0.10s, color 0.10s;
+  }
+
+  .nav-hm svg:hover {
+    color: rgb(0, 179, 211);
+    transform: scale(1.5);
+  }
+
+  .title-link {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-width: 150px;
+    width: 12vw;
+    text-decoration: none;
+  }
+
+  .title-link h2, h5 {
+    padding: 0;
+    margin: 0;
+  }
+
+  .title-link h2 {
+    color: rgb(27, 27, 27);
+  }
+
+  .title-link h5 {
+    color: rgb(0, 179, 211);
+  }
+
+  .title-name-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: max-content;
+    padding: 1vh 0;
   }
   
-  .header-hm h2 {
+  /* .header-hm h2 {
     margin: 5px 20px 5px 30px;
     cursor: pointer;
   }
@@ -91,5 +172,5 @@
   .title-link {
     text-decoration: none;
     color: white;
-  }  
+  } */  
 }
