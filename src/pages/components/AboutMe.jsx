@@ -21,20 +21,20 @@ export default class AboutMe extends Component {
           <h2>My Skills...</h2>
           <div className="list-skills">
             <p id="js" className="animationJS">Java Script</p>
-            <p id="html" className="animationHtml">HTML</p>
             <p id="react" className="animationReact">React</p>
+            <p id="html" className="animationHtml">HTML</p>
             <p id="redux" className="animationRedux">Redux</p>
             <p id="hooks" className="animationHooks">React Hooks</p>
-            <p id="bootstrap" className="animationBoots">Bootstrap</p>
             <p id="css" className="animationCss">CSS</p>
             <p id="git" className="animationGit">GitHub</p>
             <p id="scrun" className="animationGit">Scrun</p>
             <p id="kanban" className="animationGit">Kanban</p>
+            <p id="bootstrap" className="animationBoots">Bootstrap</p>
           </div>
         </div>
 
         <div className="teste">
-          <Link to='/portfolio/myprojects'>
+          <Link to='/myprojects'>
             <button type="button" class="cto">
               <span>MY PROJECTS</span>
               <svg width="13px" height="10px" viewBox="0 0 13 10">

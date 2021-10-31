@@ -17,12 +17,12 @@ export default class Sidebar extends Component {
           <nav class="nav">
             <ul>
               <li className="style-li">
-                <Link to="/portfolio">
+                <Link to="/">
                   Home Page
                 </Link>
               </li>
               <li className="style-li">
-                <Link to="/portfolio/myprojects">
+                <Link to="/myprojects">
                   My Projects
                 </Link>
               </li>

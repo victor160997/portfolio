@@ -7,7 +7,7 @@ export default class HeaderHM extends Component {
   render() {
     return (
       <header className="header-hm">
-        <Link to='/portfolio' className="title-link">
+        <Link to='/' className="title-link">
           <img src={ logo } alt="logo wave" />
           <div className="title-name-header">
             <h2>VICTOR'S</h2>
