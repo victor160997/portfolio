@@ -148,14 +148,26 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url('city.png');
+    background-image: url('https://www.inteli.edu.br/wp-content/uploads/2021/08/eng-soft-768x593-1.jpg');
     background-size: cover;
     width: 100vw;
   /*   padding-top: 0;
     padding-bottom: 0; */
     padding: 0 3vw 0 3vw;
-    box-shadow: 0 5px 15px rgb(0, 0, 0);
+    /* box-shadow: 0 5px 15px rgb(0, 0, 0); */
     opacity: 1;
+  }
+
+  .gradient {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    padding: 0 3vw 0 3vw;
+    margin-bottom: -1vw;
+    opacity: 1;
+    background: linear-gradient(to top, #1d1a1a 15%, transparent 85%);
   }
 }
 
@@ -301,13 +313,27 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url('frontCity2.png');
+    background-image: url('https://www.inteli.edu.br/wp-content/uploads/2021/08/eng-soft-768x593-1.jpg');
     background-size: cover;
     width: 100vw;
     padding-top: 0;
     padding-bottom: 0;
-    box-shadow: 0 5px 15px rgb(0, 0, 0);
+    /* box-shadow: 0 5px 15px rgb(0, 0, 0); */
     opacity: 1;
+  }
+
+  .gradient {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    padding-top: 0;
+    padding-bottom: 0;
+    /* box-shadow: 0 5px 15px rgb(0, 0, 0); */
+    opacity: 1;
+    background: linear-gradient(to top, #1d1a1a 20%, transparent 80%);
+    margin-bottom: -1vw;
   }
 }
 
